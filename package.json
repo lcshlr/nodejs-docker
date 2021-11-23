@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_app",
+  "version": "1.0.0",
+  "description": "A nodejs application deployed with docker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "mysql",
+    "javascript"
+  ],
+  "author": "Lucas HILAIRE",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3"
+  }
+}
